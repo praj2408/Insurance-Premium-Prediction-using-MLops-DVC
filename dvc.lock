@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  load_data:
+    cmd: python src/load_data.py --config=params.yaml
+    deps:
+    - path: data_given/insurance.csv
+      md5: 1e336f97963437f5f9579ae9ca385680
+      size: 50264
+    - path: src/get_data.py
+      md5: f32142cdb01df8897ecf98fd7e6770f7
+      size: 657
+    - path: src/load_data.py
+      md5: 01806b9892c948e229b8560f491440f7
+      size: 564
+    outs:
+    - path: data/raw/insurance.csv
+      md5: 9d39924c3a8417878543b27ca3969bcf
+      size: 57215

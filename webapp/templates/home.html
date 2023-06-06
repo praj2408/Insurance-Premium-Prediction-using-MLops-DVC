@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance price prediction web application</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="icon" href="/static/img/insurance-logo.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/static/img/insurance-logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="https://github.com/Nix-code/Insurance-premium-prediction-Ineuron/tree/main/docs">Documentation</a></li>
+                    <li><a href="https://github.com/Nix-code/Insurance-premium-prediction-Ineuron">Github</a></li>
+                    <li><a href="https://nixhantme.herokuapp.com/">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <div class="section-body">
+        <div class="insurance-detail">
+           <h2>Insurance price prediction</h2>
+           
+            <form method="POST">
+                <input type="text" name="age" id="" placeholder="age between 18 to 64">
+                <select name="sex" id="" class="custom-style">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+                <input type="text" name="bmi" id="" placeholder="bmi">
+                <input type="text" name="children" id="" placeholder="children">
+                <select name="smoker" id="" class="custom-style">
+                   <option value="yes">Yes</option>
+                   <option value="no">No</option>
+                </select>
+                
+                 <select name="region" id="" class="custom-style">
+                    <option value="SouthWest">SouthWest</option>
+                    <option value="SouthEast">SouthEast</option>
+                    <option value="NorthWest">NorthWest</option>
+                    <option value="NorthWest">NorthEast</option>
+                 </select>
+                <input type="submit" value="Predict">
+            </form>
+
+            <div class="response-me">
+                <h3 style="font-size: 2.2rem;">Predicted Premium</h3><br>
+               
+                    <h1 style="font-size: 2.2rem;color: rgb(184, 6, 65); margin-bottom: 6px;">{{response_int}}</h1>
+                    <h1 style="font-size: 1.7rem; color: rgb(9, 154, 31);">{{response}}</h1>
+               
+                
+            </div>
+
+        </div>
+      
+     
+        <div class="img-insure">
+            <img src="/static/img/home.png" alt="">
+        </div>
+
+    </div>
+
+  
+         
+ 
+
+</body>
+
+</html>

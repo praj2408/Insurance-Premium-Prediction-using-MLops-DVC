@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+insurance.egg-info/PKG-INFO
+insurance.egg-info/SOURCES.txt
+insurance.egg-info/dependency_links.txt
+insurance.egg-info/top_level.txt
+prediction_service/__init__.py
+prediction_service/prediction.py
+src/__init__.py
+src/get_data.py
+src/load_data.py
+src/split_data.py
+src/train_and_evaluate.py
+tests/__init__.py
+tests/conftest.py
+tests/test_config.py

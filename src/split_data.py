@@ -37,3 +37,5 @@ if __name__=="__main__":
     args.add_argument("--config", default="params.yaml")
     parsed_args = args.parse_args()
     split_and_save(config_path=parsed_args.config) 
+
+    

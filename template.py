@@ -5,7 +5,7 @@ dirs = [
     os.path.join("data", "processed"),
     os.path.join(".github", "workflow"),
     "data_given",
-    "report",
+    "reports",
     "prediction_service",
     "notebooks",
     "saved_models",

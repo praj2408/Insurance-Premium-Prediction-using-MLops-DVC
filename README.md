@@ -11,6 +11,15 @@ https://insurance-premium-price-prediction.onrender.com/
 ### Dataset
 [Dataset](https://www.kaggle.com/noordeen/insurance-premium-prediction) is provided by Ineuron
 
+MLOps Level 1
+
+## Model information
+The machine learning model used in this project is a catboost regression model, which was trained using scikit-learn. The model takes in demographic and medical information about an individual and predicts their insurance premium.
+
+## Results and analysis
+
+After training the model, we achieved an R-squared value of 0.88 (88% accuracy) on the test data, indicating a moderate level of predictive power. We also created visualizations to explore the relationships between different features and insurance premiums.
+
 ## Installation
 To run the code, first clone this repository and navigate to the project directory:
 ```
@@ -30,13 +39,6 @@ Then, run the `app.py` file to start the Flask web application:
 ```
 python app.py
 ```
-
-## Model information
-The machine learning model used in this project is a catboost regression model, which was trained using scikit-learn. The model takes in demographic and medical information about an individual and predicts their insurance premium.
-
-## Results and analysis
-
-After training the model, we achieved an R-squared value of 0.88 (88% accuracy) on the test data, indicating a moderate level of predictive power. We also created visualizations to explore the relationships between different features and insurance premiums.
 
 ## Contributions
 Contributions to this project are welcome! To contribute, please follow the standard GitHub workflow for pull requests.

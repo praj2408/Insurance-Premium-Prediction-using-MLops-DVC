@@ -50,6 +50,41 @@ Then, run the `app.py` file to start the Flask web application:
 ```
 python app.py
 ```
+### Tox Command
+Tox aims to automate and standardize testing in Python. It is part of a larger vision of easing the packaging, testing and release process of Python
+```bash
+[tox]
+   envlist=py37
+   [testenv]
+   deps=pytest
+   command=pytest -v
+```
+### For rebuilding
+``` tox -r ```
+
+### Pytest
+```pytest -v```
+Used for testing purposes. You can use pip install pytest and pip install tox
+
+### Setup
+```pip install -e```
+
+### Package building
+``` python setup.py sdist bdist_wheel```
+
+### Hands on commands for testing
+```dvc repro```
+```dvc metrics show```
+Use logging libraries for making logs
+
+### Testing
+while testing your file names must contains the word test in it. For ex: xyztest.py or configtest.py
+
+After writing code, run pytest -v and see all test cases done
+
+### Web deployment
+Flask for backend and HTML, CSS, for frontend
+all the code are given in app.py
 
 ## Contributions
 Contributions to this project are welcome! To contribute, please follow the standard GitHub workflow for pull requests.

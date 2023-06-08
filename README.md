@@ -5,7 +5,7 @@ The goal of this project is to give people an estimate of how much they need bas
 insurance policy rather than the ineffective part.
 
 ## Website Link
-https://  
+https://insurance-premium-price-prediction.onrender.com/
 
 ![](https://github.com/praj2408/Insurance-Premium-Prediction-cicd/blob/main/static/img/Insurance%20Premium%20Prediction.gif)
 ### Dataset

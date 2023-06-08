@@ -11,7 +11,18 @@ https://insurance-premium-price-prediction.onrender.com/
 ### Dataset
 [Dataset](https://www.kaggle.com/noordeen/insurance-premium-prediction) is provided by Ineuron
 
-MLOps Level 1
+## MLOps Level 1: ML Pipeline Automation Architecture
+The goal of level 1 is to perform continuous training of the model by automating the ML pipeline; this lets you achieve continuous delivery of model prediction service. To automate the process of using new data to retrain models in production, you need to introduce automated data and model validation steps to the pipeline, as well as pipeline triggers and metadata management.
+
+The following figure is a schematic representation of an automated ML pipeline for CT.
+![](https://github.com/praj2408/ETE-Protect/blob/main/images/ML%20pipeline%20automation.jpg)
+
+## MLOps Level 2: CI/CD pipeline automation
+For a rapid and reliable update of the pipelines in production, you need a robust automated CI/CD system. This automated CI/CD system lets your data scientists rapidly explore new ideas around feature engineering, model architecture, and hyperparameters. They can implement these ideas and automatically build, test, and deploy the new pipeline components to the target environment.
+
+The following diagram shows the implementation of the ML pipeline using CI/CD, which has the characteristics of the automated ML pipelines setup plus the automated CI/CD routines.
+![](https://github.com/praj2408/ETE-Protect/blob/main/images/cicd%20pipeline%20automation.jpg)
+
 
 ## Model information
 The machine learning model used in this project is a catboost regression model, which was trained using scikit-learn. The model takes in demographic and medical information about an individual and predicts their insurance premium.

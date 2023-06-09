@@ -34,7 +34,7 @@ After training the model, we achieved an R-squared value of 0.88 (88% accuracy) 
 ## Installation
 To run the code, first clone this repository and navigate to the project directory:
 ```
-git clone https://github.com/your-username/insurance-premium-prediction.git
+git clone https://github.com/your-username/repository_name.git
 ```
 Create a virtual environment
 ```
@@ -75,6 +75,7 @@ Used for testing purposes. You can use pip install pytest and pip install tox
 ### Hands on commands for testing
 ```dvc repro```
 ```dvc metrics show```
+
 Use logging libraries for making logs
 
 ### Testing
